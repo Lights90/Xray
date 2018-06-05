@@ -1,4 +1,3 @@
-.db
-.uasset
-.pdb
-.log
+*.db
+*.pdb
+*.log
