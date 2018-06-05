@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjectXray.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{35A93AE5-3D9C-40A7-A0F8-5A59B65665BF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectXray.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjectXrayEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{9C7E7580-E1B3-4075-B0F2-2BAFD7424886}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjectXray">
+			<UniqueIdentifier>{4D6C3A1E-391B-4271-87DC-722D747C912B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectXray\ProjectXray.Build.cs">
+			<Filter>Source\ProjectXray</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjectXray\ProjectXray.cpp">
+			<Filter>Source\ProjectXray</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectXray\ProjectXray.h">
+			<Filter>Source\ProjectXray</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectXray\ProjectXrayGameModeBase.cpp">
+			<Filter>Source\ProjectXray</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectXray\ProjectXrayGameModeBase.h">
+			<Filter>Source\ProjectXray</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
