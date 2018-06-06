@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 06/05/18 20:55:23
+=======
+﻿Log file open, 06/05/18 20:48:48
+>>>>>>> 632725e8f88d04c0c4c723a7946b69e6990193ac
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +11,21 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ProjectXray
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1052749054) SRandInit(-1052749054).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.268334
+=======
+LogInit: Display: RandInit(-1528659169) SRandInit(-1528659169).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.379970
+>>>>>>> 632725e8f88d04c0c4c723a7946b69e6990193ac
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +97,13 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.162s to configure plugins.
 LogModuleManager: Warning: Module file ../../../../../../Users/brent/OneDrive/Documents/GitHub/Xray/ProjectXray/Binaries/Win64/UE4Editor-ProjectXray-2810.dll is missing. This is likely a stale module that must be recompiled.
+=======
+LogStreaming: Display: Took  0.050s to configure plugins.
+LogModuleManager: Warning: Module file ../../../../Projects/Xray/Xray/ProjectXray/Binaries/Win64/UE4Editor-ProjectXray-2810.dll is missing. This is likely a stale module that must be recompiled.
+>>>>>>> 632725e8f88d04c0c4c723a7946b69e6990193ac
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -171,6 +189,7 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
 LogInit: Warning: Incompatible or missing module: UE4Editor-ProjectXray.dll
+<<<<<<< HEAD
 Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectXray Development Win64 -project="C:/Users/brent/OneDrive/Documents/GitHub/Xray/ProjectXray/ProjectXray.uproject" -editorrecompile -progress -NoHotReloadFromIDE
 Using 'git status' to determine working set for adaptive non-unity build.
 Creating makefile for ProjectXray (changes to target files)
@@ -190,6 +209,16 @@ ProjectXray.cpp
    Creating library C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ProjectXray.lib and object C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ProjectXray.exp
 Total build time: 28.20 seconds (Local executor: 22.33 seconds)
 LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/brent/OneDrive/Documents/GitHub/Xray/ProjectXray/Binaries/Win64/UE4Editor-ProjectXray.dll (API version 3944462).
+=======
+Running D:/Programs/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectXray Development Win64 -project="D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/ProjectXray.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for ProjectXray (ini files are newer than UBTMakefile)
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 2.77 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../Projects/Xray/Xray/ProjectXray/Binaries/Win64/UE4Editor-ProjectXray.dll (API version 3944462).
+>>>>>>> 632725e8f88d04c0c4c723a7946b69e6990193ac
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -293,7 +322,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-DOQOSG7 (192.168.1.5:0)
+LogInit: WinSock: I am DESKTOP-LQ7UABI (192.168.1.187:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -322,8 +351,9 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Programs/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -1056,3 +1086,1523 @@ LogInit: Object subsystem initialized
 [2018.06.06-01.21.01:753][491]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.06.06-01.21.01:758][491]LogExit: Exiting.
 [2018.06.06-01.21.01:775][491]Log file closed, 06/05/18 21:21:01
+=======
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.06-00.48.55:189][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-00.48.55:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.06-00.48.55:198][  0]LogInit: Computer: DESKTOP-LQ7UABI
+[2018.06.06-00.48.55:198][  0]LogInit: User: Lights
+[2018.06.06-00.48.55:198][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.06.06-00.48.55:198][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2018.06.06-00.48.55:199][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.06.06-00.48.55:199][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.06-00.48.55:199][  0]LogMemory: Process Physical Memory: 279.47 MB used, 279.47 MB peak
+[2018.06.06-00.48.55:199][  0]LogMemory: Process Virtual Memory: 267.09 MB used, 267.09 MB peak
+[2018.06.06-00.48.55:199][  0]LogMemory: Physical Memory: 5552.80 MB used,  27160.67 MB free, 32713.47 MB total
+[2018.06.06-00.48.55:199][  0]LogMemory: Virtual Memory: 4845.88 MB used,  27160.67 MB free, 134217728.00 MB total
+[2018.06.06-00.48.55:211][  0]LogInit: Using OS detected language (en-US).
+[2018.06.06-00.48.55:211][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.06-00.48.55:213][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.06-00.48.55:511][  0]LogStreaming: Display: Took  0.300s to EndInitTextLocalization.
+[2018.06.06-00.48.55:511][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.06-00.48.55:538][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.06-00.48.55:538][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.06-00.48.55:663][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.06-00.48.55:709][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.06.06-00.48.55:709][  0]LogD3D11RHI:       4053/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.06-00.48.55:710][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.06-00.48.55:710][  0]LogD3D11RHI:       0/0/16356 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.06-00.48.55:710][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.06-00.48.55:714][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.06-00.48.55:714][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.06-00.48.55:714][  0]LogWindows: EnumDisplayDevices:
+[2018.06.06-00.48.55:714][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.06.06-00.48.55:714][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2018.06.06-00.48.55:714][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.06.06-00.48.55:714][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.06.06-00.48.55:714][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.06-00.48.55:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.06.06-00.48.55:714][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.06-00.48.55:714][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.06-00.48.55:714][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.06.06-00.48.55:739][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.06-00.48.55:739][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.06-00.48.55:739][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.06-00.48.55:755][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.06-00.48.55:843][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../Projects/Xray/Xray/ProjectXray/Intermediate/Shaders/WorkingDirectory/3532/).
+[2018.06.06-00.48.55:843][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sweth/AppData/Local/Temp/UnrealShaderWorkingDir/8DDD102F488B5D9DFBC85E83DA1279B4/'.
+[2018.06.06-00.48.55:973][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.06-00.48.55:982][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.06-00.48.55:991][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.06-00.48.56:000][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.06-00.48.56:008][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.06-00.48.56:017][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.06-00.48.56:026][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.06-00.48.56:035][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.06-00.48.56:039][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.06-00.48.56:047][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.06-00.48.56:055][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.06-00.48.56:063][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.06-00.48.56:070][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.06-00.48.56:079][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.06-00.48.56:087][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.06-00.48.56:103][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.06-00.48.56:103][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.06-00.48.56:111][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.06-00.48.56:112][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.06-00.48.56:144][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.06-00.48.56:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.06-00.48.56:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.06-00.48.56:168][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.06-00.48.56:176][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.06-00.48.56:184][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.06-00.48.56:184][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.06-00.48.56:238][  0]LogXGEController: Cleaning working directory: C:/Users/sweth/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.06-00.48.56:238][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.06-00.48.56:238][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.06-00.48.56:238][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.06-00.48.56:691][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB C:/Users/sweth/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/sweth/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/Xray/Xray/ProjectXray/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/Xray/Xray/ProjectXray/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.06-00.48.56:739][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.06-00.48.56:751][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.06-00.48.56:763][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sweth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.06-00.48.56:763][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.06-00.48.56:763][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.06-00.48.56:774][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.06-00.48.56:775][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.06-00.48.56:775][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-00.48.56:775][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-00.48.56:854][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.06.06-00.48.57:057][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-00.48.57:150][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.06-00.48.57:151][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.06-00.48.57:151][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.06-00.48.57:151][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.06-00.48.57:151][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.06-00.48.57:151][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.06-00.48.57:177][  0]LogNetVersion: ProjectXray , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 706649197)
+[2018.06.06-00.48.57:459][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.038727 seconds
+[2018.06.06-00.48.57:463][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.06-00.48.57:463][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.06-00.48.57:463][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.06-00.48.58:527][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.06-00.48.58:547][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.06-00.48.58:755][  0]SourceControl: Source control is disabled
+[2018.06.06-00.48.58:755][  0]SourceControl: Source control is disabled
+[2018.06.06-00.48.58:764][  0]SourceControl: Source control is disabled
+[2018.06.06-00.48.58:772][  0]SourceControl: Source control is disabled
+[2018.06.06-00.48.59:044][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.06-00.48.59:130][  0]LogOcInput: OculusInput pre-init called
+[2018.06.06-00.48.59:194][  0]LogEngine: Initializing Engine...
+[2018.06.06-00.48.59:195][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.06-00.48.59:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.06-00.48.59:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.06-00.48.59:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.06-00.48.59:367][  0]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.48.59:375][  0]LogInit: FAudioDevice initialized.
+[2018.06.06-00.48.59:448][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/sweth/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.06-00.48.59:457][  0]LogInit: Texture streaming: Enabled
+[2018.06.06-00.48.59:465][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.06-00.48.59:472][  0]LogInit: Transaction tracking system initialized
+[2018.06.06-00.48.59:483][  0]BlueprintLog: New page: Editor Load
+[2018.06.06-00.48.59:518][  0]LocalizationService: Localization service is disabled
+[2018.06.06-00.48.59:560][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.06.06-00.48.59:560][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.06.06-00.48.59:560][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.06.06-00.48.59:575][  0]LogConsoleResponse: Display: 
+[2018.06.06-00.48.59:687][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.06-00.48.59:687][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.06-00.48.59:687][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.06-00.48.59:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.06-00.48.59:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.06-00.48.59:861][  0]LogFileCache: Scanning file cache for directory 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/' took 0.01s
+[2018.06.06-00.48.59:861][  0]SourceControl: Source control is disabled
+[2018.06.06-00.48.59:861][  0]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.48.59:861][  0]LightingResults: New page: Lighting Build
+[2018.06.06-00.48.59:862][  0]MapCheck: New page: Map Check
+[2018.06.06-00.48.59:862][  0]LightingResults: New page: Lighting Build
+[2018.06.06-00.49.00:084][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.06-00.49.00:089][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.49.00:098][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.49.00:125][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.263ms to complete.
+[2018.06.06-00.49.00:125][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.264
+[2018.06.06-00.49.00:245][  0]LogCollectionManager: Loaded 0 collections in 0.000627 seconds
+[2018.06.06-00.49.00:288][  0]LogFileCache: Scanning file cache for directory 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Saved/Collections/' took 0.01s
+[2018.06.06-00.49.00:288][  0]LogFileCache: Scanning file cache for directory 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/Developers/Lights/Collections/' took 0.01s
+[2018.06.06-00.49.00:288][  0]LogFileCache: Scanning file cache for directory 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/Collections/' took 0.01s
+[2018.06.06-00.49.00:288][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.06-00.49.00:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2453 classes and 560 folders.
+[2018.06.06-00.49.00:298][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.06-00.49.00:321][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.06-00.49.00:324][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.06.06-00.49.00:330][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.06.06-00.49.00:374][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.06-00.49.00:376][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.06-00.49.00:381][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.06-00.49.00:449][  0]LogRenderer: Reallocating scene render targets to support 1288x624 Format 10 NumSamples 1 (Frame:1).
+[2018.06.06-00.49.00:565][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.06.06-00.49.00:565][  0]LogLoad: (Engine Initialization) Total time: 12.98 seconds
+[2018.06.06-00.49.00:565][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.06-00.49.00:577][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.06-00.49.00:591][  0]LogAssetRegistry: Asset discovery search completed in 3.7598 seconds
+[2018.06.06-00.49.00:593][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.06-00.49.00:593][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.06.06-00.49.00:595][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.06-00.49.06:483][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.49.36:435][289]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.06-00.49.36:448][289]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da92355050, Size=104, Default__Char_PlayerOne_C Function /Game/Characters/Player/Char_PlayerOne.Char_PlayerOne_C:ExecuteUbergraph_Char_PlayerOne
+[2018.06.06-00.49.36:451][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da92355050, Size=104
+[2018.06.06-00.49.36:451][289]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da92355050, Size=104, Default__Char_PlayerOne_C Function /Engine/Transient.REINST_Char_PlayerOne_C_5:ExecuteUbergraph_Char_PlayerOne
+[2018.06.06-00.49.36:452][289]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da8df64410, Size=104, Default__Char_PlayerOne_C Function /Game/Characters/Player/Char_PlayerOne.Char_PlayerOne_C:ExecuteUbergraph_Char_PlayerOne
+[2018.06.06-00.49.36:493][289]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-00.49.36:507][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da92355050, Size=104
+[2018.06.06-00.49.36:509][289]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.49.36:509][289]LightingResults: New page: Lighting Build
+[2018.06.06-00.49.36:509][289]LoadErrors: New page: Loading map: levelLightsOne.umap
+[2018.06.06-00.49.36:510][289]MapCheck: New page: Map Check
+[2018.06.06-00.49.36:510][289]LightingResults: New page: Lighting Build
+[2018.06.06-00.49.36:566][289]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.49.36:594][289]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.49.36:622][289]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.746ms to complete.
+[2018.06.06-00.49.36:622][289]LogFileHelpers: Loading map 'levelLightsOne' took 0.114
+[2018.06.06-00.49.42:880][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.49.42:972][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.49.42:984][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.49.42:984][ 38]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 4:49:42 PM)
+[2018.06.06-00.49.42:985][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-00.49.42:996][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011723s)
+[2018.06.06-00.49.42:997][ 38]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-00.49.42:997][ 38]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2018.06.06-00.49.42:997][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.012269s)
+[2018.06.06-00.49.43:010][ 38]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.49.43:016][ 38]LogInit: FAudioDevice initialized.
+[2018.06.06-00.49.43:059][ 38]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.49.43:061][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-20.49.43
+[2018.06.06-00.49.43:061][ 38]LogWorld: Bringing up level for play took: 0.001494
+[2018.06.06-00.49.43:063][ 38]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.06.06-00.49.43:065][ 38]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne 0.323
+[2018.06.06-00.49.48:395][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.49.49:443][790]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da8d167b00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.49.49:446][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da8d167b00, Size=240
+[2018.06.06-00.49.49:446][790]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da8d167b00, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_9:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.49.49:448][790]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dad655df00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.49.49:455][790]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.49.49:463][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da8d167b00, Size=240
+[2018.06.06-00.49.49:463][790]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.49.49:463][790]LightingResults: New page: Lighting Build
+[2018.06.06-00.49.49:464][790]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.49.49:465][790]MapCheck: New page: Map Check
+[2018.06.06-00.49.49:465][790]LightingResults: New page: Lighting Build
+[2018.06.06-00.49.49:474][790]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.49.49:476][790]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.49.49:478][790]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.49.49:480][790]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.49.49:518][790]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.49.49:548][790]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.49.49:577][790]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 28.836ms to complete.
+[2018.06.06-00.49.49:577][790]LogFileHelpers: Loading map 'ProceduralP' took 0.114
+[2018.06.06-00.49.50:794][932]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.49.50:806][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.49.50:806][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.49.50:807][932]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:49:50 PM)
+[2018.06.06-00.49.50:807][932]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.49.50:808][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001212s)
+[2018.06.06-00.49.50:808][932]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.49.50:808][932]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2018.06.06-00.49.50:808][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001690s)
+[2018.06.06-00.49.50:821][932]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.49.50:827][932]LogInit: FAudioDevice initialized.
+[2018.06.06-00.49.50:859][932]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.49.50:859][932]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.49.50
+[2018.06.06-00.49.50:860][932]LogWorld: Bringing up level for play took: 0.000254
+[2018.06.06-00.49.50:862][932]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.121
+[2018.06.06-00.49.50:862][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.49.56:633][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.49.56:673][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.19:305][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.50.21:143][148]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.50.21:143][148]LightingResults: New page: Lighting Build
+[2018.06.06-00.50.21:143][148]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.50.21:144][148]MapCheck: New page: Map Check
+[2018.06.06-00.50.21:144][148]LightingResults: New page: Lighting Build
+[2018.06.06-00.50.21:152][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dad655df00, Size=240
+[2018.06.06-00.50.21:155][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dadb1ff700, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.50.21:158][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dadb1ff700, Size=240
+[2018.06.06-00.50.21:158][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dadb1ff700, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_11:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.50.21:161][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da96b27600, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.50.21:167][148]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.50.21:168][148]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.50.21:170][148]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.50.21:171][148]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.50.21:173][148]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.50.21:211][148]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.50.21:220][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dadb1ff700, Size=240
+[2018.06.06-00.50.21:240][148]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.50.21:267][148]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 27.917ms to complete.
+[2018.06.06-00.50.21:268][148]LogFileHelpers: Loading map 'ProceduralP' took 0.126
+[2018.06.06-00.50.27:304][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.50.32:007][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.50.32:473][478]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.50.32:486][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.32:486][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.50.32:486][478]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:50:32 PM)
+[2018.06.06-00.50.32:486][478]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.50.32:487][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001208s)
+[2018.06.06-00.50.32:487][478]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.50.32:488][478]LogPlayLevel: PIE: World Init took: (0.000395s)
+[2018.06.06-00.50.32:488][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001678s)
+[2018.06.06-00.50.32:502][478]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.50.32:508][478]LogInit: FAudioDevice initialized.
+[2018.06.06-00.50.32:544][478]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.50.32:547][478]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.50.32
+[2018.06.06-00.50.32:547][478]LogWorld: Bringing up level for play took: 0.000782
+[2018.06.06-00.50.32:555][478]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP -0.187
+[2018.06.06-00.50.32:555][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.47:931][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.47:961][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.51:644][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.50.51:752][747]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.50.51:765][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.50.51:765][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.50.51:766][747]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:50:51 PM)
+[2018.06.06-00.50.51:766][747]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.50.51:767][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001256s)
+[2018.06.06-00.50.51:767][747]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.50.51:767][747]LogPlayLevel: PIE: World Init took: (0.000401s)
+[2018.06.06-00.50.51:767][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001734s)
+[2018.06.06-00.50.51:781][747]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.50.51:786][747]LogInit: FAudioDevice initialized.
+[2018.06.06-00.50.51:818][747]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.50.51:819][747]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.50.51
+[2018.06.06-00.50.51:819][747]LogWorld: Bringing up level for play took: 0.000251
+[2018.06.06-00.50.51:821][747]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP -0.92
+[2018.06.06-00.50.51:821][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.51.34:078][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.51.34:116][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.51.37:690][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.51.45:884][174]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.06.06-00.51.46:086][174]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daac28c8e0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.06-00.51.46:086][174]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daac28c8d8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.06-00.51.46:381][174]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.06-00.51.46:441][175]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.06-00.51.47:878][318]LogRenderer: Reallocating scene render targets to support 1288x772 Format 10 NumSamples 1 (Frame:1).
+[2018.06.06-00.51.55:835][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.51.55:952][270]LogSlate: Window 'Char_PlayerOne' being destroyed
+[2018.06.06-00.51.55:955][270]LogSlate: Window 'Char_PlayerOne' being destroyed
+[2018.06.06-00.51.58:476][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.52.02:355][ 24]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-00.52.02:375][ 24]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.52.02:375][ 24]LightingResults: New page: Lighting Build
+[2018.06.06-00.52.02:375][ 24]LoadErrors: New page: Loading map: levelLightsOne.umap
+[2018.06.06-00.52.02:376][ 24]MapCheck: New page: Map Check
+[2018.06.06-00.52.02:376][ 24]LightingResults: New page: Lighting Build
+[2018.06.06-00.52.02:387][ 24]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da96b27600, Size=240
+[2018.06.06-00.52.02:443][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.52.02:475][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.52.02:506][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.719ms to complete.
+[2018.06.06-00.52.02:506][ 24]LogFileHelpers: Loading map 'levelLightsOne' took 0.132
+[2018.06.06-00.52.17:382][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.52.18:591][940]Cmd: EDIT COPY
+[2018.06.06-00.52.19:052][995]Cmd: EDIT PASTE
+[2018.06.06-00.52.23:700][531]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.52.24:827][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.31:364][444]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.52.32:016][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.32:491][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.33:186][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.33:256][663]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.34:346][792]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.34:416][799]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.35:850][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.52.37:218][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.37:296][137]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.38:264][250]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.38:343][258]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.39:022][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.39:085][343]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.39:535][394]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.06.06-00.52.39:589][399]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.40:861][549]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.40:886][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-00.52.42:162][702]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.52.42:712][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.52.49:500][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.52.52:021][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.52.56:916][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.52.57:234][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.53.05:506][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.53.08:065][702]Cmd: EDIT COPY
+[2018.06.06-00.53.08:394][741]Cmd: EDIT PASTE
+[2018.06.06-00.53.18:676][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.53.29:248][199]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.53.29:714][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall4)
+[2018.06.06-00.53.32:972][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.53.38:384][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.53.44:004][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.53.54:803][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.53.57:971][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.53.58:899][714]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.53.59:851][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.54.00:232][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.54.01:100][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.54.01:621][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.54.03:610][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall4)
+[2018.06.06-00.54.05:168][423]Cmd: DELETE
+[2018.06.06-00.54.05:168][423]Cmd: ACTOR DELETE
+[2018.06.06-00.54.05:171][423]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.06-00.54.05:182][423]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.06.06-00.54.05:374][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall3)
+[2018.06.06-00.54.05:710][482]Cmd: DELETE
+[2018.06.06-00.54.05:710][482]Cmd: ACTOR DELETE
+[2018.06.06-00.54.05:712][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.06-00.54.05:723][482]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.06.06-00.54.06:763][607]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.54.07:446][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.54.07:961][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.54.08:338][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall2)
+[2018.06.06-00.54.08:782][832]Cmd: DELETE
+[2018.06.06-00.54.08:782][832]Cmd: ACTOR DELETE
+[2018.06.06-00.54.08:784][832]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.06-00.54.08:795][832]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.06.06-00.54.10:417][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.54.12:886][320]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.06.06-00.54.17:473][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.54.25:832][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.54.30:202][348]Cmd: DELETE
+[2018.06.06-00.54.30:202][348]Cmd: ACTOR DELETE
+[2018.06.06-00.54.30:205][348]LogEditorActor: Deleted Actor: Brush
+[2018.06.06-00.54.30:216][348]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.06.06-00.54.33:224][709]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.54.33:684][760]Cmd: TRANSACTION UNDO
+[2018.06.06-00.54.33:684][760]LogEditorTransaction: Undo Clicking on Actors
+[2018.06.06-00.54.35:260][947]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.54.36:401][ 80]Cmd: TRANSACTION UNDO
+[2018.06.06-00.54.36:401][ 80]LogEditorTransaction: Undo Clicking on Actors
+[2018.06.06-00.54.38:235][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall)
+[2018.06.06-00.54.38:793][362]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.54.40:285][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.54.42:873][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.54.43:460][912]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.06.06-00.54.44:933][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.55.13:201][424]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-00.55.14:353][554]Cmd: EDIT COPY
+[2018.06.06-00.55.14:673][592]Cmd: EDIT PASTE
+[2018.06.06-00.55.28:070][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.55.32:599][703]LogEditorViewport: Clicking on Actor (LMB): Brush (Geo_Wall2)
+[2018.06.06-00.55.33:853][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.55.44:926][113]Cmd: EDIT COPY
+[2018.06.06-00.55.45:200][145]Cmd: EDIT PASTE
+[2018.06.06-00.56.01:256][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.05:851][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.11:044][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/levelLightsOne" FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.06-00.56.11:160][163]LogSavePackage: Save=99.35ms
+[2018.06.06-00.56.11:160][163]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/levelLightsOne0B74D9B448E2742A222418B6EC3C3764.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap'
+[2018.06.06-00.56.11:163][163]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap
+[2018.06.06-00.56.17:963][972]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daff70b100, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.17:966][972]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daff70b100, Size=240
+[2018.06.06-00.56.17:966][972]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daff70b100, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_25:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.17:969][972]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dae5575b00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.17:976][972]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.17:987][972]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daff70b100, Size=240
+[2018.06.06-00.56.17:989][972]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.56.17:989][972]LightingResults: New page: Lighting Build
+[2018.06.06-00.56.17:989][972]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.56.17:990][972]MapCheck: New page: Map Check
+[2018.06.06-00.56.17:990][972]LightingResults: New page: Lighting Build
+[2018.06.06-00.56.18:003][972]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.56.18:006][972]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.56.18:009][972]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.56.18:011][972]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.56.18:055][972]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.56.18:087][972]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.56.18:119][972]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.047ms to complete.
+[2018.06.06-00.56.18:119][972]LogFileHelpers: Loading map 'ProceduralP' took 0.131
+[2018.06.06-00.56.25:090][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.25:215][821]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.56.25:229][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.25:229][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.25:229][821]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:56:25 PM)
+[2018.06.06-00.56.25:229][821]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.25:230][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001257s)
+[2018.06.06-00.56.25:230][821]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.25:231][821]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2018.06.06-00.56.25:231][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001762s)
+[2018.06.06-00.56.25:247][821]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.25:253][821]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.25:286][821]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.25:287][821]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.25
+[2018.06.06-00.56.25:287][821]LogWorld: Bringing up level for play took: 0.000262
+[2018.06.06-00.56.25:289][821]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.548
+[2018.06.06-00.56.25:289][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.27:986][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.28:020][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.28:969][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.35:025][958]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.56.35:038][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.35:038][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.35:038][958]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:56:35 PM)
+[2018.06.06-00.56.35:038][958]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.35:040][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001256s)
+[2018.06.06-00.56.35:040][958]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.35:040][958]LogPlayLevel: PIE: World Init took: (0.000406s)
+[2018.06.06-00.56.35:040][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001737s)
+[2018.06.06-00.56.35:056][958]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.35:061][958]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.35:091][958]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.35:092][958]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.35
+[2018.06.06-00.56.35:092][958]LogWorld: Bringing up level for play took: 0.000295
+[2018.06.06-00.56.35:095][958]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.353
+[2018.06.06-00.56.35:095][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.36:855][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.36:887][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.38:165][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.41:665][710]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.56.41:677][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.41:678][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.41:678][710]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:56:41 PM)
+[2018.06.06-00.56.41:678][710]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.41:679][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001233s)
+[2018.06.06-00.56.41:679][710]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.41:679][710]LogPlayLevel: PIE: World Init took: (0.000409s)
+[2018.06.06-00.56.41:679][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001717s)
+[2018.06.06-00.56.41:695][710]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.41:701][710]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.41:733][710]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.41:734][710]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.41
+[2018.06.06-00.56.41:734][710]LogWorld: Bringing up level for play took: 0.000262
+[2018.06.06-00.56.41:736][710]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.995
+[2018.06.06-00.56.41:736][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.43:946][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.43:978][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.45:069][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.56.46:555][269]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.56.46:568][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.46:568][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.46:568][269]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:56:46 PM)
+[2018.06.06-00.56.46:568][269]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.46:569][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001261s)
+[2018.06.06-00.56.46:570][269]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.46:570][269]LogPlayLevel: PIE: World Init took: (0.000413s)
+[2018.06.06-00.56.46:570][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001750s)
+[2018.06.06-00.56.46:586][269]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.46:591][269]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.46:619][269]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.46:620][269]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.46
+[2018.06.06-00.56.46:620][269]LogWorld: Bringing up level for play took: 0.000259
+[2018.06.06-00.56.46:622][269]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP -0.119
+[2018.06.06-00.56.46:622][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.47:587][376]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.47:619][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.48:326][454]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.56.48:326][454]LightingResults: New page: Lighting Build
+[2018.06.06-00.56.48:327][454]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.56.48:328][454]MapCheck: New page: Map Check
+[2018.06.06-00.56.48:328][454]LightingResults: New page: Lighting Build
+[2018.06.06-00.56.48:338][454]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dae5575b00, Size=240
+[2018.06.06-00.56.48:342][454]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dae5d67800, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.48:344][454]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dae5d67800, Size=240
+[2018.06.06-00.56.48:344][454]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dae5d67800, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_27:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.48:347][454]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da816f9b00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.56.48:354][454]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.48:354][454]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.56.48:356][454]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.56.48:358][454]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.56.48:361][454]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.56.48:404][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.56.48:417][454]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dae5d67800, Size=240
+[2018.06.06-00.56.48:438][454]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.56.48:468][454]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.028ms to complete.
+[2018.06.06-00.56.48:468][454]LogFileHelpers: Loading map 'ProceduralP' took 0.144
+[2018.06.06-00.56.49:620][588]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.56.49:634][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.49:634][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.49:634][588]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:56:49 PM)
+[2018.06.06-00.56.49:634][588]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.49:635][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001271s)
+[2018.06.06-00.56.49:636][588]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.49:636][588]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2018.06.06-00.56.49:636][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001796s)
+[2018.06.06-00.56.49:652][588]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.49:658][588]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.49:686][588]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.49:687][588]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.49
+[2018.06.06-00.56.49:687][588]LogWorld: Bringing up level for play took: 0.000295
+[2018.06.06-00.56.49:689][588]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.948
+[2018.06.06-00.56.49:689][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.51:497][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.51:532][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.54:992][205]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-00.56.59:155][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.56.59:155][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.56.59:155][702]PIE: New page: SIE session: ProceduralP (Jun 5, 2018, 4:56:59 PM)
+[2018.06.06-00.56.59:155][702]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.56.59:156][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001236s)
+[2018.06.06-00.56.59:157][702]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.56.59:157][702]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2018.06.06-00.56.59:157][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001740s)
+[2018.06.06-00.56.59:172][702]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.56.59:178][702]LogInit: FAudioDevice initialized.
+[2018.06.06-00.56.59:178][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-00.56.59:210][702]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.56.59:211][702]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.56.59
+[2018.06.06-00.56.59:211][702]LogWorld: Bringing up level for play took: 0.000270
+[2018.06.06-00.56.59:211][702]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.06-00.56.59:213][702]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.471
+[2018.06.06-00.56.59:217][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.02:431][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.02:464][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.04:890][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.04:890][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.57.04:890][337]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:57:04 PM)
+[2018.06.06-00.57.04:890][337]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.57.04:891][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001232s)
+[2018.06.06-00.57.04:892][337]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.04:892][337]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2018.06.06-00.57.04:892][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001762s)
+[2018.06.06-00.57.04:910][337]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.57.04:916][337]LogInit: FAudioDevice initialized.
+[2018.06.06-00.57.04:956][337]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.57.04:959][337]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.57.04
+[2018.06.06-00.57.04:960][337]LogWorld: Bringing up level for play took: 0.001217
+[2018.06.06-00.57.04:971][337]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.229
+[2018.06.06-00.57.04:971][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.13:051][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.13:087][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.14:161][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.14:278][436]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.57.14:290][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.14:290][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.57.14:290][436]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:57:14 PM)
+[2018.06.06-00.57.14:291][436]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.57.14:292][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001238s)
+[2018.06.06-00.57.14:292][436]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.14:292][436]LogPlayLevel: PIE: World Init took: (0.000401s)
+[2018.06.06-00.57.14:292][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001714s)
+[2018.06.06-00.57.14:308][436]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.57.14:314][436]LogInit: FAudioDevice initialized.
+[2018.06.06-00.57.14:344][436]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.57.14:345][436]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.57.14
+[2018.06.06-00.57.14:345][436]LogWorld: Bringing up level for play took: 0.000266
+[2018.06.06-00.57.14:347][436]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP -0.394
+[2018.06.06-00.57.14:347][436]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.16:534][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.16:568][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.20:562][161]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.57.20:562][161]LightingResults: New page: Lighting Build
+[2018.06.06-00.57.20:563][161]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.57.20:564][161]MapCheck: New page: Map Check
+[2018.06.06-00.57.20:564][161]LightingResults: New page: Lighting Build
+[2018.06.06-00.57.20:574][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da816f9b00, Size=240
+[2018.06.06-00.57.20:578][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dad5961b00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.57.20:580][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dad5961b00, Size=240
+[2018.06.06-00.57.20:580][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dad5961b00, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_29:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.57.20:583][161]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dad3d45400, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.57.20:590][161]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.20:591][161]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.57.20:593][161]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.57.20:596][161]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.57.20:599][161]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.57.20:642][161]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.57.20:655][161]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dad5961b00, Size=240
+[2018.06.06-00.57.20:676][161]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.57.20:707][161]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.806ms to complete.
+[2018.06.06-00.57.20:708][161]LogFileHelpers: Loading map 'ProceduralP' took 0.146
+[2018.06.06-00.57.26:739][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.32:619][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.32:752][600]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.57.32:764][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.32:764][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.57.32:764][600]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:57:32 PM)
+[2018.06.06-00.57.32:764][600]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.57.32:766][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001265s)
+[2018.06.06-00.57.32:766][600]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.32:766][600]LogPlayLevel: PIE: World Init took: (0.000424s)
+[2018.06.06-00.57.32:766][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001763s)
+[2018.06.06-00.57.32:783][600]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.57.32:788][600]LogInit: FAudioDevice initialized.
+[2018.06.06-00.57.32:820][600]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.57.32:821][600]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.57.32
+[2018.06.06-00.57.32:821][600]LogWorld: Bringing up level for play took: 0.000332
+[2018.06.06-00.57.32:823][600]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.082
+[2018.06.06-00.57.32:824][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.34:063][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.34:093][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.35:930][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.39:517][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.39:592][371]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.57.39:604][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.39:605][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.57.39:605][371]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:57:39 PM)
+[2018.06.06-00.57.39:605][371]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.57.39:606][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001275s)
+[2018.06.06-00.57.39:606][371]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.39:606][371]LogPlayLevel: PIE: World Init took: (0.000413s)
+[2018.06.06-00.57.39:607][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001764s)
+[2018.06.06-00.57.39:623][371]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.57.39:629][371]LogInit: FAudioDevice initialized.
+[2018.06.06-00.57.39:669][371]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.57.39:670][371]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.57.39
+[2018.06.06-00.57.39:670][371]LogWorld: Bringing up level for play took: 0.000257
+[2018.06.06-00.57.39:673][371]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.931
+[2018.06.06-00.57.39:673][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.42:862][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.42:894][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.46:941][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.57:325][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.57.57:433][445]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-00.57.57:446][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.57.57:446][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-00.57.57:447][445]PIE: New page: PIE session: ProceduralP (Jun 5, 2018, 4:57:57 PM)
+[2018.06.06-00.57.57:447][445]LogPlayLevel: Creating play world package: /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP
+[2018.06.06-00.57.57:448][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001252s)
+[2018.06.06-00.57.57:448][445]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.57.57:448][445]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2018.06.06-00.57.57:448][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LightsProcedure/ProceduralP.ProceduralP to /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP (0.001748s)
+[2018.06.06-00.57.57:465][445]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-00.57.57:471][445]LogInit: FAudioDevice initialized.
+[2018.06.06-00.57.57:504][445]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-00.57.57:505][445]LogWorld: Bringing World /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP.ProceduralP up for play (max tick rate 0) at 2018.06.05-20.57.57
+[2018.06.06-00.57.57:505][445]LogWorld: Bringing up level for play took: 0.000259
+[2018.06.06-00.57.57:507][445]PIE: Play in editor start time for /Game/Levels/LightsProcedure/UEDPIE_0_ProceduralP 0.766
+[2018.06.06-00.57.57:507][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.58.48:360][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.58.48:398][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP' with GeneratedClass '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C' with ClassGeneratedBy '/Game/Levels/LightsProcedure/ProceduralP.ProceduralP:PersistentLevel.ProceduralP'
+[2018.06.06-00.58.50:012][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.58.53:286][725]LogSlate: Window 'Save Content' being destroyed
+[2018.06.06-00.58.53:350][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dad3d45400, Size=240
+[2018.06.06-00.58.53:350][725]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dae5716000, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_33:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.58.53:353][725]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daffb6da00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.58.53:423][725]LogSavePackage: Save=82.69ms
+[2018.06.06-00.58.53:423][725]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/ProceduralP35AAC9F9425E5C51808065A2DA386A01.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap'
+[2018.06.06-00.58.53:424][725]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap
+[2018.06.06-00.58.53:445][725]LogFileHelpers: Saving map 'ProceduralP' took 0.153
+[2018.06.06-00.58.53:448][725]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/Procedural01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.58.53:448][725]LightingResults: New page: Lighting Build
+[2018.06.06-00.58.53:448][725]LoadErrors: New page: Loading map: Procedural01.umap
+[2018.06.06-00.58.53:449][725]MapCheck: New page: Map Check
+[2018.06.06-00.58.53:449][725]LightingResults: New page: Lighting Build
+[2018.06.06-00.58.53:460][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daffb6da00, Size=240
+[2018.06.06-00.58.53:460][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dae5716000, Size=240
+[2018.06.06-00.58.53:461][725]LogAIModule: Creating AISystem for world Procedural01
+[2018.06.06-00.58.53:500][725]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.58.53:534][725]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.58.53:565][725]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.438ms to complete.
+[2018.06.06-00.58.53:566][725]LogFileHelpers: Loading map 'Procedural01' took 0.119
+[2018.06.06-00.59.00:529][555]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da96b25d00, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.59.00:532][555]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da96b25d00, Size=240
+[2018.06.06-00.59.00:532][555]LogUObjectGlobals: Created PersistentFrame Addr=0x000001da96b25d00, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_35:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.59.00:534][555]LogUObjectGlobals: Created PersistentFrame Addr=0x000001dadb1fc100, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-00.59.00:541][555]LogAIModule: Creating AISystem for world ProceduralP
+[2018.06.06-00.59.00:553][555]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da96b25d00, Size=240
+[2018.06.06-00.59.00:554][555]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-00.59.00:554][555]LightingResults: New page: Lighting Build
+[2018.06.06-00.59.00:554][555]LoadErrors: New page: Loading map: ProceduralP.umap
+[2018.06.06-00.59.00:555][555]MapCheck: New page: Map Check
+[2018.06.06-00.59.00:555][555]LightingResults: New page: Lighting Build
+[2018.06.06-00.59.00:566][555]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural01) is flushing async loading
+[2018.06.06-00.59.00:569][555]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural02) is flushing async loading
+[2018.06.06-00.59.00:571][555]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural03) is flushing async loading
+[2018.06.06-00.59.00:573][555]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/LightsProcedure/Procedural04) is flushing async loading
+[2018.06.06-00.59.00:617][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-00.59.00:650][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-00.59.00:680][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.584ms to complete.
+[2018.06.06-00.59.00:680][555]LogFileHelpers: Loading map 'ProceduralP' took 0.128
+[2018.06.06-00.59.08:514][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.59.20:019][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.06.06-00.59.22:317][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-00.59.50:051][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.00.28:340][ 30]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.00.29:465][ 30]LogSlate: Window 'Save Content' being destroyed
+[2018.06.06-01.00.29:522][ 30]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001dadb1fc100, Size=240
+[2018.06.06-01.00.29:522][ 30]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daffb0c500, Size=240, Default__ProceduralP_C Function /Engine/Transient.REINST_ProceduralP_C_39:ExecuteUbergraph_ProceduralP
+[2018.06.06-01.00.29:525][ 30]LogUObjectGlobals: Created PersistentFrame Addr=0x000001daff70a100, Size=240, Default__ProceduralP_C Function /Game/Levels/LightsProcedure/ProceduralP.ProceduralP_C:ExecuteUbergraph_ProceduralP
+[2018.06.06-01.00.29:595][ 30]LogSavePackage: Save=82.81ms
+[2018.06.06-01.00.29:595][ 30]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/ProceduralPB82ECA7B4C75421C59A4FE9B19F30B14.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap'
+[2018.06.06-01.00.29:597][ 30]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/LightsProcedure/ProceduralP.umap
+[2018.06.06-01.00.29:618][ 30]LogFileHelpers: Saving map 'ProceduralP' took 0.148
+[2018.06.06-01.00.29:619][ 30]Cmd: MAP LOAD FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-01.00.29:619][ 30]LightingResults: New page: Lighting Build
+[2018.06.06-01.00.29:619][ 30]LoadErrors: New page: Loading map: levelLightsOne.umap
+[2018.06.06-01.00.29:621][ 30]MapCheck: New page: Map Check
+[2018.06.06-01.00.29:621][ 30]LightingResults: New page: Lighting Build
+[2018.06.06-01.00.29:632][ 30]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daff70a100, Size=240
+[2018.06.06-01.00.29:633][ 30]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daffb0c500, Size=240
+[2018.06.06-01.00.29:689][ 30]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-01.00.29:721][ 30]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-01.00.29:751][ 30]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.752ms to complete.
+[2018.06.06-01.00.29:751][ 30]LogFileHelpers: Loading map 'levelLightsOne' took 0.133
+[2018.06.06-01.00.42:489][494]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.00.44:716][749]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.00.51:622][543]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.00.58:707][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.01.01:949][738]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.01.07:297][319]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.01.20:903][919]Cmd: EDIT COPY
+[2018.06.06-01.01.22:777][143]Cmd: EDIT PASTE
+[2018.06.06-01.01.30:718][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.01.54:471][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.02.17:641][497]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.02.25:950][438]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.02.59:598][426]Cmd: EDIT COPY
+[2018.06.06-01.03.00:362][517]Cmd: EDIT PASTE
+[2018.06.06-01.03.04:726][ 23]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.03.07:299][308]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.03.11:571][784]Cmd: EDIT COPY
+[2018.06.06-01.03.12:007][830]Cmd: EDIT PASTE
+[2018.06.06-01.03.17:007][392]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.06.06-01.03.17:040][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.03.17:576][447]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.06.06-01.03.17:598][447]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.03.23:611][118]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.03.46:572][832]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.03.53:179][602]Cmd: EDIT COPY
+[2018.06.06-01.03.53:479][638]Cmd: EDIT PASTE
+[2018.06.06-01.04.03:660][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.04.18:569][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.04.33:135][319]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.04.36:767][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.04.36:875][749]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-01.04.36:889][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-01.04.36:889][749]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 5:04:36 PM)
+[2018.06.06-01.04.36:889][749]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-01.04.36:897][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008034s)
+[2018.06.06-01.04.36:897][749]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.04.36:897][749]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2018.06.06-01.04.36:897][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.008656s)
+[2018.06.06-01.04.36:915][749]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-01.04.36:921][749]LogInit: FAudioDevice initialized.
+[2018.06.06-01.04.36:952][749]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-01.04.36:954][749]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-21.04.36
+[2018.06.06-01.04.36:954][749]LogWorld: Bringing up level for play took: 0.001509
+[2018.06.06-01.04.36:955][749]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne 0.213
+[2018.06.06-01.04.46:302][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.05.24:255][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.05.24:354][303]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-01.05.24:367][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-01.05.24:367][303]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 5:05:24 PM)
+[2018.06.06-01.05.24:367][303]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-01.05.24:375][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007945s)
+[2018.06.06-01.05.24:376][303]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.05.24:376][303]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2018.06.06-01.05.24:376][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.008493s)
+[2018.06.06-01.05.24:393][303]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-01.05.24:398][303]LogInit: FAudioDevice initialized.
+[2018.06.06-01.05.24:431][303]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-01.05.24:433][303]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-21.05.24
+[2018.06.06-01.05.24:433][303]LogWorld: Bringing up level for play took: 0.001511
+[2018.06.06-01.05.24:434][303]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne -0.307
+[2018.06.06-01.06.04:157][995]Cmd: EDIT COPY
+[2018.06.06-01.06.04:652][ 54]Cmd: EDIT PASTE
+[2018.06.06-01.06.15:044][251]Cmd: DELETE
+[2018.06.06-01.06.15:044][251]Cmd: ACTOR DELETE
+[2018.06.06-01.06.15:047][251]LogEditorActor: Deleted Actor: Brush
+[2018.06.06-01.06.15:061][251]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.06.06-01.06.22:779][165]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.06.27:244][651]Cmd: EDIT COPY
+[2018.06.06-01.06.27:841][718]Cmd: EDIT PASTE
+[2018.06.06-01.06.33:025][321]Cmd: EDIT PASTE
+[2018.06.06-01.06.35:722][636]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.06.42:972][444]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.06.43:425][494]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.07.05:881][111]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.07.22:540][ 55]Cmd: EDIT COPY
+[2018.06.06-01.07.24:201][254]Cmd: EDIT PASTE
+[2018.06.06-01.07.28:755][784]Cmd: DELETE
+[2018.06.06-01.07.28:756][784]Cmd: ACTOR DELETE
+[2018.06.06-01.07.28:759][784]LogEditorActor: Deleted Actor: Brush
+[2018.06.06-01.07.28:772][784]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.06.06-01.07.40:128][ 83]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.06.06-01.07.40:163][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.07.46:479][828]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.08.00:692][451]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.08.01:434][530]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.06.06-01.08.01:456][530]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.08.04:605][904]Cmd: EDIT COPY
+[2018.06.06-01.08.04:924][942]Cmd: EDIT PASTE
+[2018.06.06-01.08.10:493][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.08.15:766][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.08.33:419][301]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.08.53:736][613]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.19:476][643]Cmd: EDIT COPY
+[2018.06.06-01.09.20:400][753]Cmd: EDIT PASTE
+[2018.06.06-01.09.24:965][271]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.28:885][710]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.30:435][884]Cmd: EDIT COPY
+[2018.06.06-01.09.32:656][135]Cmd: EDIT PASTE
+[2018.06.06-01.09.35:772][501]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.46:905][761]Cmd: EDIT COPY
+[2018.06.06-01.09.47:203][796]Cmd: EDIT PASTE
+[2018.06.06-01.09.51:642][314]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.54:084][595]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.09.56:967][923]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.10.06:343][  5]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.10.13:825][850]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.10.19:643][511]Cmd: EDIT COPY
+[2018.06.06-01.10.19:980][551]Cmd: EDIT PASTE
+[2018.06.06-01.10.25:514][172]Cmd: EDIT COPY
+[2018.06.06-01.10.25:772][203]Cmd: EDIT PASTE
+[2018.06.06-01.10.30:604][736]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.10.51:335][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.10.58:956][ 46]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.11.39:076][745]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.11.50:036][977]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.11.56:828][767]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.00:390][151]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.01:029][203]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.07:072][883]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.08:354][ 32]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.29:837][519]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.30:367][578]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.38:040][446]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.43:517][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.06.06-01.12.45:427][234]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.12.53:868][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.13.08:546][862]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.20:256][154]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.24:285][604]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.32:829][577]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.36:310][969]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.47:159][181]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.13.55:959][182]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.14.04:617][160]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.14.08:444][602]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.14.12:439][ 46]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.14.26:208][601]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.14.29:793][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.14.30:234][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-01.14.30:248][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-01.14.30:249][ 53]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 5:14:30 PM)
+[2018.06.06-01.14.30:249][ 53]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-01.14.30:259][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009905s)
+[2018.06.06-01.14.30:259][ 53]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.14.30:259][ 53]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2018.06.06-01.14.30:259][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.010561s)
+[2018.06.06-01.14.30:277][ 53]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-01.14.30:284][ 53]LogInit: FAudioDevice initialized.
+[2018.06.06-01.14.30:315][ 53]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-01.14.30:317][ 53]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-21.14.30
+[2018.06.06-01.14.30:317][ 53]LogWorld: Bringing up level for play took: 0.001592
+[2018.06.06-01.14.30:318][ 53]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne -0.423
+[2018.06.06-01.14.48:624][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.14.58:014][355]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.14.58:892][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.15.37:775][  5]Cmd: TRANSACTION UNDO
+[2018.06.06-01.15.37:775][  5]LogEditorTransaction: Undo Move Actors
+[2018.06.06-01.15.37:778][  5]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall10.BrushComponent0) Component already registered.
+[2018.06.06-01.15.39:038][137]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.15.41:858][464]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.15.53:191][773]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.15.58:954][423]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.16.03:671][947]Cmd: EDIT COPY
+[2018.06.06-01.16.04:106][999]Cmd: EDIT PASTE
+[2018.06.06-01.16.12:712][971]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.16.18:942][649]Cmd: EDIT COPY
+[2018.06.06-01.16.19:279][689]Cmd: EDIT PASTE
+[2018.06.06-01.16.24:047][243]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.16.41:244][205]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.16.47:236][897]Cmd: EDIT COPY
+[2018.06.06-01.16.47:640][945]Cmd: EDIT PASTE
+[2018.06.06-01.16.55:264][815]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.17.23:076][949]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.17.28:153][515]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.17.33:931][175]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.17.35:672][357]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.17.50:452][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.17.50:553][ 89]MapCheck: New page: Map Check
+[2018.06.06-01.17.50:571][ 89]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.06-01.17.50:577][ 89]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.06-01.17.50:669][ 89]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.06-01.17.50:674][ 89]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.06.06-01.17.50:678][ 89]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.06-01.17.50:678][ 89]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.06-01.17.50:678][ 89]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.06.06-01.17.51:212][ 89]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.06-01.17.51:212][ 89]TextureStreamingBuild: Display: Compiling optional shaders took 0.548 seconds.
+[2018.06.06-01.17.51:214][ 89]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.06.06-01.17.51:220][ 89]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.06.06-01.17.51:231][ 89]LightingResults: New page: Lighting Build - Jun 5, 2018, 5:17:51 PM
+[2018.06.06-01.17.51:289][ 89]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.06-01.17.51:329][ 89]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.06-01.17.51:336][ 89]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.06-01.17.51:843][ 89]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.06-01.17.51:843][ 89]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3532
+[2018.06.06-01.17.53:890][ 89]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.06.06-01.17.53:890][ 89]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.06-01.17.53:890][ 89]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.06-01.17.53:890][ 89]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.06-01.17.53:890][ 89]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.06-01.17.53:890][ 89]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.06-01.17.54:071][ 89]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.06-01.17.54:071][ 89]MapCheck: New page: levelLightsOne - Jun 5, 2018, 5:17:54 PM
+[2018.06.06-01.17.54:104][ 89]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.373ms to complete.
+[2018.06.06-01.17.54:127][ 89]LogEditorBuildUtils: Build time 0:03
+[2018.06.06-01.17.54:150][ 89]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.06.06-01.17.54:155][ 89]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.06.06-01.17.54:177][ 89]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.06-01.17.55:883][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.17.55:975][177]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.06.06-01.17.55:986][177]Candidate modules for hot reload:
+[2018.06.06-01.17.55:986][177]  ProjectXray
+[2018.06.06-01.17.55:986][177]Launching UnrealBuildTool... [D:/Programs/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectXray -ModuleWithSuffix=ProjectXray,7608 Win64 Development -editorrecompile -canskiplink "D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/ProjectXray.uproject" ]
+[2018.06.06-01.17.55:987][177]Warning: Starting HotReload took  0.0s.
+[2018.06.06-01.17.56:684][197]CompilerResultsLog: New page: Compilation - Jun 5, 2018, 5:17:56 PM
+[2018.06.06-01.17.56:684][197]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.06-01.17.56:684][197]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.06-01.17.56:684][197]CompilerResultsLog: Target is up to date
+[2018.06.06-01.17.56:684][197]CompilerResultsLog: Total build time: 0.34 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.06-01.17.56:684][197]LogMainFrame: MainFrame: Module compiling took 0.709 seconds
+[2018.06.06-01.17.56:892][197]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2456 classes and 565 folders.
+[2018.06.06-01.17.56:896][197]Display: HotReload took  0.9s.
+[2018.06.06-01.18.02:338][640]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.18.03:546][745]Job is a success!
+[2018.06.06-01.18.03:586][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.090s
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 3.8Mb
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:          1: 6.7% covering 9.6% of volume
+[2018.06.06-01.18.03:687][746]LogVolumetricLightmapImport:          2: 92.2% covering 2.1% of volume
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.06.06-01.18.03:919][746]LogTexture: Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_20 (AutoDXT, 128X64)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_21 (AutoDXT, 128X64)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_22 (AutoDXT, 128X64)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: SkyOcclusion0_23 (AutoDXT, 64X32)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 64X64)
+[2018.06.06-01.18.03:920][746]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 64X64)
+[2018.06.06-01.18.03:964][746]Lightmass on DESKTOP-LQ7UABI: 7.17 sec total, 309 ms importing, 228 ms setup, 1.79 sec photons, 4.81 sec processing, 0 ms extra exporting [93/93 mappings]. Threads: 52.4 sec total, 20.0 sec processing.
+[2018.06.06-01.18.04:030][746]LogStaticLightingSystem: Illumination: 12.7 sec (193 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.06.06-01.18.04:030][746]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (3.0 MB streaming, 0.2 MB non-streaming), 46 textures
+[2018.06.06-01.18.04:030][746]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.06.06-01.18.04:900][746]DumpUnbuiltLightIteractions
+[2018.06.06-01.18.04:900][746]Lights with unbuilt interactions: 0
+[2018.06.06-01.18.04:900][746]
+[2018.06.06-01.18.04:900][746]Primitives with unbuilt interactions: 0
+[2018.06.06-01.18.04:939][747]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.06-01.18.04:939][747]MapCheck: New page: levelLightsOne - Jun 5, 2018, 5:18:04 PM
+[2018.06.06-01.18.04:976][747]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.288ms to complete.
+[2018.06.06-01.18.08:982][216]LogSlate: Window 'Message Log' being destroyed
+[2018.06.06-01.18.08:985][216]LogSlate: Window 'Message Log' being destroyed
+[2018.06.06-01.18.12:758][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.18.12:883][651]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.06.06-01.18.12:892][651]Candidate modules for hot reload:
+[2018.06.06-01.18.12:892][651]  ProjectXray
+[2018.06.06-01.18.12:892][651]Launching UnrealBuildTool... [D:/Programs/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectXray -ModuleWithSuffix=ProjectXray,3308 Win64 Development -editorrecompile -canskiplink "D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/ProjectXray.uproject" ]
+[2018.06.06-01.18.12:893][651]Warning: Starting HotReload took  0.0s.
+[2018.06.06-01.18.13:358][707]CompilerResultsLog: New page: Compilation - Jun 5, 2018, 5:18:13 PM
+[2018.06.06-01.18.13:358][707]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.06-01.18.13:358][707]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.06-01.18.13:358][707]CompilerResultsLog: Target is up to date
+[2018.06.06-01.18.13:358][707]CompilerResultsLog: Total build time: 0.34 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.06-01.18.13:358][707]LogMainFrame: MainFrame: Module compiling took 0.475 seconds
+[2018.06.06-01.18.13:552][707]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2456 classes and 565 folders.
+[2018.06.06-01.18.13:556][707]Display: HotReload took  0.7s.
+[2018.06.06-01.18.15:915][990]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.18.20:879][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.18.20:971][571]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-01.18.20:984][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-01.18.20:984][571]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 5:18:20 PM)
+[2018.06.06-01.18.20:985][571]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-01.18.20:995][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010891s)
+[2018.06.06-01.18.20:996][571]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.18.20:996][571]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2018.06.06-01.18.20:996][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.011545s)
+[2018.06.06-01.18.21:035][571]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-01.18.21:041][571]LogInit: FAudioDevice initialized.
+[2018.06.06-01.18.21:076][571]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-01.18.21:085][571]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-21.18.21
+[2018.06.06-01.18.21:085][571]LogWorld: Bringing up level for play took: 0.006319
+[2018.06.06-01.18.21:087][571]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne 0.346
+[2018.06.06-01.18.47:327][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.18.54:425][512]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.19.02:768][494]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.19.03:313][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.19.04:683][702]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.19.06:506][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.19.13:168][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.19.24:352][  7]Cmd: EDIT COPY
+[2018.06.06-01.19.25:957][187]Cmd: EDIT PASTE
+[2018.06.06-01.19.33:278][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.19.45:440][416]LogSlate: Window 'Select Path' being destroyed
+[2018.06.06-01.19.45:454][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.19.45:675][416]LogStaticMesh: Building static mesh SM_House1...
+[2018.06.06-01.19.45:695][416]LogStaticMesh: Built static mesh [0.02s] /Game/Items/Geometry/SM_House1.SM_House1
+[2018.06.06-01.19.45:699][416]LogActorFactory: Actor Factory created SM_House1
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall2' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall38' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall39' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall40' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Door_Sub2' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall41' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall42' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall43' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall44' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall45' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall46' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall47' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall48' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall49' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall50' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:730][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall51' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall52' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall53' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall54' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall55' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall56' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall57' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall58' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall59' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall60' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall61' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall62' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall63' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall64' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall65' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall66' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall67' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall68' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall69' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall70' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall71' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]LogEditor: Error: Actor 'Brush /Game/Levels/levelLightsOne.levelLightsOne:PersistentLevel.Geo_Wall72' is marked pending kill and cannot be converted
+[2018.06.06-01.19.45:731][416]EditorErrors: New page: Actor Reattachment
+[2018.06.06-01.19.48:224][690]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.19.49:309][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.19.54:866][448]LogActorFactory: Actor Factory created SM_House1
+[2018.06.06-01.19.56:193][606]LogActorFactory: Actor Factory created SM_House1
+[2018.06.06-01.19.59:206][962]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.06-01.19.59:865][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.19.59:964][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-01.19.59:977][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-01.19.59:977][ 36]PIE: New page: PIE session: levelLightsOne (Jun 5, 2018, 5:19:59 PM)
+[2018.06.06-01.19.59:977][ 36]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_levelLightsOne
+[2018.06.06-01.19.59:988][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010791s)
+[2018.06.06-01.19.59:988][ 36]LogAIModule: Creating AISystem for world levelLightsOne
+[2018.06.06-01.19.59:988][ 36]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2018.06.06-01.19.59:989][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/levelLightsOne.levelLightsOne to /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne (0.011421s)
+[2018.06.06-01.20.00:005][ 36]LogInit: XAudio2 using 'Speakers (Siberia V2 Illuminated)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.06-01.20.00:011][ 36]LogInit: FAudioDevice initialized.
+[2018.06.06-01.20.00:048][ 36]LogLoad: Game class is 'GM_LightsOne_C'
+[2018.06.06-01.20.00:055][ 36]LogWorld: Bringing World /Game/Levels/UEDPIE_0_levelLightsOne.levelLightsOne up for play (max tick rate 0) at 2018.06.05-21.20.00
+[2018.06.06-01.20.00:056][ 36]LogWorld: Bringing up level for play took: 0.005372
+[2018.06.06-01.20.00:059][ 36]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_levelLightsOne -0.682
+[2018.06.06-01.20.12:476][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.20.12:592][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/levelLightsOne" FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.06-01.20.12:736][520]LogSavePackage: Save=128.13ms
+[2018.06.06-01.20.12:736][520]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/levelLightsOne3DD275E549C5A3145C8FD895FF307472.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap'
+[2018.06.06-01.20.12:737][520]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne.umap
+[2018.06.06-01.20.12:759][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/levelLightsOne_BuiltData" FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne_BuiltData.uasset" SILENT=true
+[2018.06.06-01.20.12:888][520]LogSavePackage: Save=127.13ms
+[2018.06.06-01.20.12:888][520]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/levelLightsOne_BuiltData478A631E4798FFF9AD77599A35BE81BC.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne_BuiltData.uasset'
+[2018.06.06-01.20.12:889][520]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Levels/levelLightsOne_BuiltData.uasset
+[2018.06.06-01.20.13:502][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-01.20.13:603][605]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.06.06-01.20.13:613][605]Candidate modules for hot reload:
+[2018.06.06-01.20.13:614][605]  ProjectXray
+[2018.06.06-01.20.13:614][605]Launching UnrealBuildTool... [D:/Programs/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectXray -ModuleWithSuffix=ProjectXray,2674 Win64 Development -editorrecompile -canskiplink "D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/ProjectXray.uproject" ]
+[2018.06.06-01.20.13:615][605]Warning: Starting HotReload took  0.0s.
+[2018.06.06-01.20.14:068][660]CompilerResultsLog: New page: Compilation - Jun 5, 2018, 5:20:14 PM
+[2018.06.06-01.20.14:068][660]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.06-01.20.14:068][660]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.06-01.20.14:068][660]CompilerResultsLog: Target is up to date
+[2018.06.06-01.20.14:068][660]CompilerResultsLog: Total build time: 0.34 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.06.06-01.20.14:068][660]LogMainFrame: MainFrame: Module compiling took 0.465 seconds
+[2018.06.06-01.20.14:250][660]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2456 classes and 565 folders.
+[2018.06.06-01.20.14:254][660]Display: HotReload took  0.7s.
+[2018.06.06-01.20.17:215][845]LogSlate: Window 'Save Content' being destroyed
+[2018.06.06-01.20.17:233][845]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.06-01.20.17:250][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Geometry/SM_House1" FILE="../../../../Projects/Xray/Xray/ProjectXray/Content/Items/Geometry/SM_House1.uasset" SILENT=true
+[2018.06.06-01.20.17:262][845]LogSavePackage: Save=10.68ms
+[2018.06.06-01.20.17:262][845]LogSavePackage: Moving '../../../../Projects/Xray/Xray/ProjectXray/Saved/SM_House11D95E63D4F0462C7B306FBAF91BE9FAF.tmp' to '../../../../Projects/Xray/Xray/ProjectXray/Content/Items/Geometry/SM_House1.uasset'
+[2018.06.06-01.20.17:264][845]LogSavePackage: Display: Finished SavePackage ../../../../Projects/Xray/Xray/ProjectXray/Content/Items/Geometry/SM_House1.uasset
+[2018.06.06-01.20.17:326][845]LogSlate: Window 'ProjectXray - Unreal Editor' being destroyed
+[2018.06.06-01.20.17:327][845]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.06-01.20.17:531][846]Cmd: QUIT_EDITOR
+[2018.06.06-01.20.18:514][846]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.06.06-01.20.18:514][846]LogExit: Preparing to exit.
+[2018.06.06-01.20.19:510][846]LogDirectoryWatcher: A directory notification failed for 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/', and we were unable to create a new request.
+[2018.06.06-01.20.19:540][846]LogExit: Editor shut down
+[2018.06.06-01.20.19:543][846]LogExit: Transaction tracking system shut down
+[2018.06.06-01.20.19:544][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001da8df64410, Size=104
+[2018.06.06-01.20.19:546][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daac28c8e0, Size=4
+[2018.06.06-01.20.19:546][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001daac28c8d8, Size=4
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../../../Projects/Xray/Xray/ProjectXray/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.06.06-01.20.19:758][846]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.06.06-01.20.19:819][846]LogExit: Object subsystem successfully closed.
+[2018.06.06-01.20.19:839][846]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.06.06-01.20.19:841][846]LogD3D11RHI: Shutdown
+[2018.06.06-01.20.19:841][846]LogD3D11RHI: CleanupD3DDevice
+[2018.06.06-01.20.19:843][846]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (584)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module BlueprintGraph (582)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module WorldBrowser (576)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module SceneOutliner (574)
+[2018.06.06-01.20.19:850][846]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
+[2018.06.06-01.20.19:850][846]LogDirectoryWatcher: A directory notification for 'D:/Programs/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module EditorWidgets (568)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module CollectionManager (566)
+[2018.06.06-01.20.19:852][846]LogDirectoryWatcher: A directory notification for 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/Collections/' was aborted.
+[2018.06.06-01.20.19:852][846]LogDirectoryWatcher: A directory notification for 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Content/Developers/Lights/Collections/' was aborted.
+[2018.06.06-01.20.19:852][846]LogDirectoryWatcher: A directory notification for 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Saved/Collections/' was aborted.
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module StatsViewer (564)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module BspMode (548)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module SessionServices (502)
+[2018.06.06-01.20.19:852][846]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
+[2018.06.06-01.20.19:853][846]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module MergeActors (470)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module XmlParser (458)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module Blutility (456)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
+[2018.06.06-01.20.20:530][846]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
+[2018.06.06-01.20.20:531][846]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
+[2018.06.06-01.20.20:531][846]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
+[2018.06.06-01.20.20:531][846]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module AutomationController (436)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module Layers (432)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module Persona (424)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
+[2018.06.06-01.20.20:586][846]LogModuleManager: Shutting down and abandoning module Kismet (418)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module Toolbox (412)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module OutputLog (406)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module GammaUI (404)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module Documentation (402)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module MovieScene (398)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module PortalServices (390)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module AIModule (384)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
+[2018.06.06-01.20.20:591][846]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module SteamVRController (374)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (372)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module OculusInput (368)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (364)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module CableComponent (362)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module AudioCapture (360)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (358)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module AndroidPermission (356)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
+[2018.06.06-01.20.20:824][846]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module SourceControl (307)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module ProjectXray (292)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2018.06.06-01.20.20:827][846]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2018.06.06-01.20.20:929][846]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module DataValidation (264)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2018.06.06-01.20.21:030][846]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2018.06.06-01.20.21:030][846]LogDirectoryWatcher: A directory notification for 'D:/Programs/Epic Games/Projects/Xray/Xray/ProjectXray/Binaries/Win64' was aborted.
+[2018.06.06-01.20.21:031][846]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2018.06.06-01.20.21:031][846]LogModuleManager: Shutting down and abandoning module TreeMap (249)
+[2018.06.06-01.20.21:031][846]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2018.06.06-01.20.21:031][846]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
+[2018.06.06-01.20.21:031][846]LogModuleManager: Shutting down and abandoning module LiveLink (242)
+[2018.06.06-01.20.21:336][846]LogModuleManager: Shutting down and abandoning module Paper2D (240)
+[2018.06.06-01.20.21:336][846]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
+[2018.06.06-01.20.21:336][846]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
+[2018.06.06-01.20.21:337][846]LogModuleManager: Shutting down and abandoning module Media (235)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module Overlay (224)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module VREditor (220)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module UMG (206)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module Sequencer (204)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module MessageLog (201)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module Slate (194)
+[2018.06.06-01.20.21:343][846]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module MRMesh (190)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module Networking (182)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module Core (180)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2018.06.06-01.20.21:344][846]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2018.06.06-01.20.21:345][846]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2018.06.06-01.20.21:407][846]LogDerivedDataCache: Shutdown
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2018.06.06-01.20.21:407][846]LogXGEController: Cleaning working directory: C:/Users/sweth/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
+[2018.06.06-01.20.21:407][846]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2018.06.06-01.20.21:408][846]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2018.06.06-01.20.21:408][846]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.06.06-01.20.21:408][846]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDAEFC150-40B6-FE1B-DD47-54BAEAB6A6AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ac381697407a84a7c48bda8513cff85e%7Cd7fb0ccc77fe44558ff4480985f0a7ee%7Cfa0d66a6-8481-4621-bb27-c52bb0584cbb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.06.06-01.20.21:439][846]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.06.06-01.20.21:440][846]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.06.06-01.20.21:441][846]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.06.06-01.20.21:449][846]LogExit: Exiting.
+[2018.06.06-01.20.21:460][846]Log file closed, 06/05/18 21:20:21
+>>>>>>> 632725e8f88d04c0c4c723a7946b69e6990193ac
