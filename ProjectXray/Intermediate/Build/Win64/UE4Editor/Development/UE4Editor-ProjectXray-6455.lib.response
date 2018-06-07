@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ProjectXray-6455.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Programs\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\ProjectXray\ProjectXray.cpp.obj"
+"D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\ProjectXray\ProjectXrayGameModeBase.cpp.obj"
+"D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\ProjectXray\ProjectXray.init.gen.cpp.obj"
+"D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\ProjectXray\ProjectXrayGameModeBase.gen.cpp.obj"
+"D:\Programs\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ProjectXray\PCLaunch.rc.res"
+"D:\Programs\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ProjectXray-6455.lib"
