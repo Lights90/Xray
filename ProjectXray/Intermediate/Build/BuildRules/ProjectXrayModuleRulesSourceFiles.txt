@@ -1,3 +1,3 @@
-D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Source\ProjectXray\ProjectXray.Build.cs
-D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Source\ProjectXray.Target.cs
-D:\Programs\Epic Games\Projects\Xray\Xray\ProjectXray\Source\ProjectXrayEditor.Target.cs
+C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXray\ProjectXray.Build.cs
+C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXray.Target.cs
+C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXrayEditor.Target.cs
