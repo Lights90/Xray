@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"ProjectXray": "UE4Editor-ProjectXray.dll"
+=======
+		"ProjectXray": "UE4Editor-ProjectXray-8876.dll"
+>>>>>>> de77e9359401c818c36595c7a18a20fcc2771a78
 	}
 }
