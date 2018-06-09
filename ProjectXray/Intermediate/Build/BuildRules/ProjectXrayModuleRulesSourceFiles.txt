@@ -1,3 +1,3 @@
-C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXray\ProjectXray.Build.cs
-C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXray.Target.cs
-C:\Users\brent\OneDrive\Documents\GitHub\Xray\ProjectXray\Source\ProjectXrayEditor.Target.cs
+D:\Game_Design\Xray\ProjectXray\Source\ProjectXray\ProjectXray.Build.cs
+D:\Game_Design\Xray\ProjectXray\Source\ProjectXray.Target.cs
+D:\Game_Design\Xray\ProjectXray\Source\ProjectXrayEditor.Target.cs
